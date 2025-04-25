@@ -1,0 +1,130 @@
+body{
+
+    margin: 0px;
+
+}
+.navbar {
+    background-color: #3c2d1a; 
+    padding: 0.8rem 2rem; 
+    text-align: center;
+    margin: 0; 
+}
+
+.nav-item{
+
+    display: inline;
+
+}
+
+.navbar a {
+    color: #ffffff; 
+    text-decoration: none;
+    margin: 0 1rem;
+    font-family: 'Poppins', sans-serif; 
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #ffffff; 
+}
+
+
+.landing-container {
+    background-color: #fdeeaf; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 2rem;
+}
+
+
+.header {
+    font-family: 'Poppins', sans-serif; 
+    color: #3c2d1a; 
+    margin-bottom: 0.5rem;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.product-subtitle {
+    font-size: 1.2rem;
+    color: #000000; 
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+
+.hero-image {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+
+.hero-text {
+    position: absolute;
+    top: 71%;
+    left: 40%;
+    background-color: rgba(0, 0, 0, 0.6); 
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-align: center;
+    
+}
+
+
+.product-description {
+    font-size: 1rem;
+    color: #000000; 
+    margin-bottom: 1.5rem;
+    text-align: center;
+    max-width: 600px;
+}
+
+
+.cta-button {
+    background-color: #3c2d1a; 
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #5e4729; 
+}
+
+
+.main-footer {
+    background-color: #3c2d1a; 
+    color: white;
+    text-align: center;
+    padding: 1rem 2rem;
+}
+
+.main-footer a {
+    color: #ffffff; 
+    margin: 0 1rem;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    
+}
+
+.footer-links{
+
+    list-style: none;
+
+}
+
+.footer-links :hover {
+    color: #fdeeaf; 
+}
